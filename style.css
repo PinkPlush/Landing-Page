@@ -6,9 +6,13 @@
 }
 
 *{
-    background-color: var(--background);
+    
     font-family: 'Roboto', sans-serif;
 }
+.container{
+    height: 40rem;
+    background-color: var(--background);
+    }
 header {
     display: flex;
 }
@@ -16,7 +20,7 @@ header {
 .header {
     color: var(--textcolor);
     font-size: 24px;
-    margin: 1rem 45rem 20rem 13rem;
+    margin: 1rem 45rem 8rem 13rem;
 }
 ul{   
     color: var(--quote);
@@ -24,7 +28,7 @@ ul{
     display: flex;
     gap: 2rem;
     font-size: 18px;
-    margin: 1rem 13rem 20rem 8rem;
+    margin: 1rem 13rem 8rem 8rem;
 }
 a {
     color: inherit;
@@ -32,4 +36,45 @@ a {
 a:link {
     text-decoration: none;
 }
+div.hero{
+   height: 30rem;
+   width: 40rem;
+}
+.hero-title {
+    font-size: 48px;
+    font-weight: 900;
+    color: var(--textcolor);
+    margin: 0 2rem 1rem 13rem;
+}
+.hero-description {
+    font-size: 18px;
+    color: var(--quote);
+    margin: 0 2rem 1rem 13rem;
+}
+.hero-sign{
+    font-size: 18px;
+    font-weight: 900;
+    background-color: var(--buttoncolor);
+    color: var(--textcolor);
+    border-radius: 7px;
+    display: inline-block;
+    border: none;
+    padding: 0.5rem 1.5rem;
+    margin: 1rem auto 10rem 13rem;
 
+}
+img {
+    max-width: 100%;
+    width: 40rem;
+    height: 20rem;
+    position: absolute;
+    left: 50%;
+    top: 12rem;
+    margin: auto 6rem;
+}
+
+.random{
+    background-color: var(--textcolor);
+    text-align: center;
+
+}
