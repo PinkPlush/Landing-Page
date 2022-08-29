@@ -1,0 +1,35 @@
+:root {
+    --background:#1F2937;
+    --buttoncolor:#3882F6;
+    --quote:#E5E7EB;
+    --textcolor: #F9FAF8;
+}
+
+*{
+    background-color: var(--background);
+    font-family: 'Roboto', sans-serif;
+}
+header {
+    display: flex;
+}
+/* .header is the h1 element */
+.header {
+    color: var(--textcolor);
+    font-size: 24px;
+    margin: 1rem 45rem 20rem 13rem;
+}
+ul{   
+    color: var(--quote);
+    list-style: none;
+    display: flex;
+    gap: 2rem;
+    font-size: 18px;
+    margin: 1rem 13rem 20rem 8rem;
+}
+a {
+    color: inherit;
+}
+a:link {
+    text-decoration: none;
+}
+
