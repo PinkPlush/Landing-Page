@@ -12,6 +12,11 @@
 .container{
     height: 40rem;
     background-color: var(--background);
+    border: none;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+
     }
 header {
     display: flex;
@@ -39,6 +44,7 @@ a:link {
 div.hero{
    height: 30rem;
    width: 40rem;
+
 }
 .hero-title {
     font-size: 48px;
@@ -76,5 +82,21 @@ img {
 .random{
     background-color: var(--textcolor);
     text-align: center;
+    border: none;
 
+
+}
+div.box {
+    display: flex;
+    align-items: center;
+    width: 5rem;
+    height: 5rem;
+    background-color: var(--buttoncolor);
+    border-radius: 7px;
+    border:1rem;
+    border-color: var(--background);
+
+} 
+img.box{
+    
 }
