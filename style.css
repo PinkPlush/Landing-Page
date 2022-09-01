@@ -83,20 +83,86 @@ img {
     background-color: var(--textcolor);
     text-align: center;
     border: none;
-
-
+    height: 30rem;
+    width: auto;
+    margin: none;
+    padding: 0;
+    
 }
-div.box {
+.allign{
     display: flex;
     align-items: center;
-    width: 5rem;
-    height: 5rem;
-    background-color: var(--buttoncolor);
-    border-radius: 7px;
-    border:1rem;
-    border-color: var(--background);
+    justify-content: center;
+    gap: 3rem;
+    margin: 4rem;
+}
+.box {
 
-} 
-img.box{
+    border: 3px solid #3882F6;
+    background-color: var(--background-color);
+    padding: 1rem;
+    border-radius: 10px;
+    width: 100px;
+    height: 100px;
+    }
+.allign-par{
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    margin: 4rem 37rem 10rem 37rem;
     
+}
+.par{
+    width: 100px;
+    height: auto;
+    font-weight: 18px;
+    color: #1F2937;
+    gap: 3rem;
+    margin: auto;
+}
+.citation{
+    background-color: var(--quote);
+    height: 13rem;
+    width: auto;
+    text-align: center;
+    padding: 10rem 20rem;
+    font-style: italic;
+    font-weight:lighter;
+    
+}
+.cit{
+    font-size: 36px;
+    color: var(--background);
+}
+.thor{
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--background);
+    margin: 5rem 10rem 10rem 55rem;
+}
+.call{
+    background-color: var(--buttoncolor);
+    margin:10rem 20rem;
+    border-radius: 5px;
+    color: var(--textcolor);
+    padding: 2rem 5rem;
+}
+.call-title{
+    font-size: 24px;
+    font-weight: bold;
+}
+.signup{
+    font-size: 18px;
+    font-weight:500;
+}
+.btn{
+    border: 2px solid var(--textcolor);
+    border-radius: 7px;
+    background-color: var(--buttoncolor);
+    color:var(--textcolor);
+    position: absolute;
+    width: 130px;
+    height: 35px;
+    left: 70%;
+    top: 198%;
 }
